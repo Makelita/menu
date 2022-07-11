@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@500&family=Roboto:wght@700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Mulish, are;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    /* padding: 0 10% ; */
+    background-color: rgb(255, 248, 242);
+    /* display: flex;
+    flex-direction: column; */
+}
+.welcomePage {
+padding: 0 10% ;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#logo {
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: Roboto;
+    margin:  3rem 0;
+    
+}
+
+.titleSection {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#titlecard{
+    background-color: rgb(255, 248, 186);
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 4rem 0;
+    text-align: center;
+    font-family: Merriweather;
+}
+
+h5 {
+    font-size: 1.1rem;
+
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    line-height: 2.7rem;
+}
+
+#startBtn {
+    font-size: 2rem;
+    padding: 1rem  6.5rem;
+    border: none;
+    background-color: rgb(234, 255, 198);
+    
+}
+.createPage {
+    /* padding: 0 10% ; */
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+#createtext{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.leftSide {
+    width: 50%;
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightSide {
+    width: 50%;
+    min-width: 50vh;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 0 auto; */
+    padding: 0rem 20%;
+}
+
+
+.inputtitles {
+    width: 100%;
+    display: flex;
+    border: none;
+    padding: 1rem 0;
+}
+input {
+    width: 30rem;
+    border: none;
+    outline: none;
+    padding-left: .5rem;
+}
+
+.greenTitle {
+    width: 20%;
+    font-size: 1.4rem;
+    background-color: rgb(234, 255, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#description {
+    width: 100%;
+    height: 14rem;
+    resize: none;
+    padding: 1rem ;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    
+}
+#addBtn {
+    width: 12rem;
+    padding : 1.6rem 0;
+    background-color:rgb(234, 255, 198) ;
+    border: none;
+    align-self: flex-end;
+    margin-top:2rem ;
+
+}
+
+button {
+    border-radius: .8rem;
+}
+
+
+.remove {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 20%;
+
+    
+}
+
+
+
+
+.remove p {
+    text-align: start;
+    margin: 0;
+    font-size: 1.2rem;
+    margin:  1rem;
+}
+
+#removeInput {
+    width: 100%;
+    height: 3rem;
+    padding: 2rem 2rem;
+}
+
+.remove button {
+    width: 100%;
+    padding: 1.6rem 0;
+    margin: 2rem 0;
+    background-color:rgb(251, 215, 195) ;
+    border: none;
+}
+
+.removeBox {
+    width: 37rem;
+
+}
+
+.dishRight {
+    margin: 2rem;
+    padding: 0 4rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+#rightDishText{
+    font-family: Roboto;
+    font-weight:bolder;
+}
+
+h2 {
+    margin: 10rem 0 7rem  0;
+    text-align: center;
+    font-size: 3.2rem;
+}
+ 
+
+
+@media screen and (max-width: 40rem){
+    .createPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightSide {
+        width: 90%;
+    }
+
+    #removedlist{
+        margin-bottom: 3rem;
+    }
+    
+}
